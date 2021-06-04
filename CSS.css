@@ -1,0 +1,103 @@
+/* CSS Log */
+
+html, body, p, h2, div {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	font-size: 20px;
+}
+
+.header {
+	overflow: hidden; 
+	position: fixed;
+	background-color: black;
+	height: 50px;
+	width: 100%;
+	z-index: 1;
+}
+
+.header-right {
+	float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+
+.header-right:hover{
+	color:blue; 
+}
+
+.background_first {
+	/* Image Used */
+    background-image: url("Photos/Farm.jpg");
+
+    /* Set a specific height */
+    min-height: 800px; 
+
+    /* Create the parallax scrolling effect */
+	margin: 0px;
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	display:grid;
+}
+
+.background_second {
+	/* Image Used */
+    background-image: url("Photos/Oilfield.jpg");
+
+    /* Set a specific height */
+    height: 450px; 
+
+    /* Create the parallax scrolling effect */
+	margin: 0px;
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Nameplate {
+	font-size: 50px; 
+	color:white;
+	margin: 300px auto;
+	text-align: center;d
+}
+
+#AboutMe {
+	height: 400px;
+	background-color:white;
+	position:relative;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+#ENGDIV {
+	padding: 0;
+	margin: 0;
+	height: 300px;
+	width: 100%;
+	background-color: red;
+}
+
+#SWDIV {
+	padding: 0;
+	margin: 0;
+	height: 300px;
+	width: 100%;
+	background-color: blue;
+}
+
+#LIFEDIV {
+	padding: 0;
+	margin: 0;
+	height: 300px;
+	width: 100%;
+	background-color: green;
+}
+
