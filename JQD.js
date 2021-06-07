@@ -32,5 +32,5 @@ $("#h-life").click(function(){
 	$("h1").css("color","green");
 	$('html, body').animate({
 		scrollTop: $('#LIFEDIV').offset().top-=50
-	},1250)
+	},1250);
 });

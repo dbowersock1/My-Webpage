@@ -18,15 +18,12 @@ ul, li {
 	z-index: 1;
 	white-space: nowrap;
 }
-
 .header-center {
     display: inline-block; 
     color: #f2f2f2;
     padding: 14px 40px;
     text-decoration: none;
 }
-
-
 .header-center:hover{
 	color:grey; 
 }
@@ -63,19 +60,18 @@ ul, li {
 }
 
 #Nameplate {
+	background: inherit;
 	font-size: 50px; 
-	color:white;
+	color:whitesmoke;
 	margin: 300px auto;
 	text-align: center;
 }
 
 #AboutMe {
+	backdrop-filter: blur(10px);
 	height: 200px;
-	background-color:white;
-	position:relative;
 	width: 100%;
-	padding: 0px;
-	margin: 0px;
+	font-size: 20px;
 }
 
 #ENGDIV {
@@ -84,6 +80,7 @@ ul, li {
 	height: 300px;
 	width: 100%;
 	background-color: white;
+	font-size: 20px;
 }
 
 #SWDIV {
@@ -92,6 +89,7 @@ ul, li {
 	height: 300px;
 	width: 100%;
 	background-color:white;
+	font-size: 20px;
 }
 
 #LIFEDIV {
@@ -100,5 +98,6 @@ ul, li {
 	height: 300px;
 	width: 100%;
 	background-color:white;
+	font-size: 20px;
 }
 
