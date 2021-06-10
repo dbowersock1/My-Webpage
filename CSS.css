@@ -28,76 +28,62 @@ ul, li {
 	color:grey; 
 }
 
-.background_first {
-	/* Image Used */
-    background-image: url("Photos/Farm.jpg");
-
-    /* Set a specific height */
-    min-height: 800px; 
-
-    /* Create the parallax scrolling effect */
-	margin: 0px;
-    background-attachment: fixed; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	display:grid;
+.background {
+/* Set a specific height */
+min-height: 900px; 
+/* Create the parallax scrolling effect */
+margin: 0px;
+background-attachment: fixed; 
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display:grid;
+position: relative;
 }
 
-.background_second {
+#background_first {
+	/* Image Used */
+    background-image: url("Photos/Farm.jpg");
+}
+#background_second {
 	/* Image Used */
     background-image: url("Photos/Oilfield2.jpeg");
-
-    /* Set a specific height */
-    height: 800px; 
-
-    /* Create the parallax scrolling effect */
-	margin: 0px;
-    background-attachment: fixed; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+#background_third {
+	background-image: url("Photos/MLouie.JPEG");
+}
+#background_fourth {
+	background-image: url("Photos/Calgary_Office.JPG");
 }
 
 #Nameplate {
-	background: inherit;
 	font-size: 50px; 
 	color:whitesmoke;
-	margin: 300px auto;
+	margin: 350px auto;
 	text-align: center;
 }
 
+.lettering {
+	color:white;
+	backdrop-filter: blur(20px);
+	position:absolute;
+	bottom: 0px;
+	font-size: 20px; 
+	width: 100%;
+	display: flex; 
+	align-items: center;
+}
+
 #AboutMe {
-	backdrop-filter: blur(10px);
+	height: 100px;
+}
+#ENGDIV{
 	height: 200px;
-	width: 100%;
-	font-size: 20px;
 }
-
-#ENGDIV {
-	padding: 0;
-	margin: 0;
-	height: 300px;
-	width: 100%;
-	background-color: white;
-	font-size: 20px;
-}
-
 #SWDIV {
-	padding: 0;
-	margin: 0;
-	height: 300px;
-	width: 100%;
-	background-color:white;
-	font-size: 20px;
+	height: 200px;
 }
-
 #LIFEDIV {
-	padding: 0;
-	margin: 0;
-	height: 300px;
-	width: 100%;
-	background-color:white;
-	font-size: 20px;
+	height: 100px;
 }
 
